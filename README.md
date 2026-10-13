@@ -11,7 +11,7 @@ Requires Rust 1.92 or newer. After publication, install the CLI with
 `cargo install exhume_grep --locked` or add `exhume_grep = "0.1"` to a Rust
 project's dependencies.
 
-From the Exhume workspace:
+From this repository or the Exhume workspace:
 
 ```sh
 cargo build --release -p exhume_grep
