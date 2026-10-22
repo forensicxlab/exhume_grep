@@ -1,6 +1,6 @@
 [package]
 name = "exhume_grep"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.92"
 description = "Streaming file-content search over Exhume indexed evidence"
@@ -14,8 +14,8 @@ categories = ["command-line-utilities", "filesystem", "text-processing"]
 include = ["Cargo.toml", "LICENSE", "README.md", "src/**/*.rs", "tests/**/*.rs"]
 
 [dependencies]
-exhume_body = "=0.5.7"
-exhume_filesystem = "=0.5.6"
+exhume_body = "=0.6.0"
+exhume_filesystem = "=0.6.0"
 aho-corasick = "1.1"
 memchr = "2.8"
 regex = "1.13"
@@ -31,5 +31,5 @@ tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time"
 signal-hook = "0.3"
 
 [dev-dependencies]
-exhume_indexer = "=0.2.4"
+exhume_indexer = "=0.3.0"
 tempfile = "3"
